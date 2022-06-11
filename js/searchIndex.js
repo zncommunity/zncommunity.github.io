@@ -3,37 +3,37 @@ Search.appendIndex(
                 {
             "fqsen": "\\ZnCore\\Contract\\Arr\\Interfaces\\ToArrayInterface",
             "name": "ToArrayInterface",
-            "summary": "",
+            "summary": "\u0412\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u044C\u0020\u043F\u0440\u0435\u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u0442\u044C\u0020\u0434\u0430\u043D\u043D\u044B\u0435\u0020\u0432\u0020\u043C\u0430\u0441\u0441\u0438\u0432.",
             "url": "classes/ZnCore-Contract-Arr-Interfaces-ToArrayInterface.html"
         },                {
             "fqsen": "\\ZnCore\\Contract\\Arr\\Interfaces\\ToArrayInterface\u003A\u003AtoArray\u0028\u0029",
             "name": "toArray",
-            "summary": "",
+            "summary": "\u041F\u0440\u0435\u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u0442\u044C\u0020\u0434\u0430\u043D\u043D\u044B\u0435\u0020\u0432\u0020\u043C\u0430\u0441\u0441\u0438\u0432",
             "url": "classes/ZnCore-Contract-Arr-Interfaces-ToArrayInterface.html#method_toArray"
         },                {
             "fqsen": "\\ZnCore\\Contract\\Common\\Exceptions\\DisabledException",
             "name": "DisabledException",
-            "summary": "",
+            "summary": "\u0424\u0443\u043D\u043A\u0446\u0438\u043E\u043D\u0430\u043B\u0020\u043E\u0442\u043A\u043B\u044E\u0447\u0435\u043D",
             "url": "classes/ZnCore-Contract-Common-Exceptions-DisabledException.html"
         },                {
             "fqsen": "\\ZnCore\\Contract\\Domain\\Interfaces\\DataProviderInterface",
             "name": "DataProviderInterface",
-            "summary": "",
+            "summary": "\u041F\u0440\u043E\u0432\u0430\u0439\u0434\u0435\u0440\u0020\u0434\u0430\u043D\u043D\u044B\u0445",
             "url": "classes/ZnCore-Contract-Domain-Interfaces-DataProviderInterface.html"
         },                {
             "fqsen": "\\ZnCore\\Contract\\Domain\\Interfaces\\DataProviderInterface\u003A\u003AgetCollection\u0028\u0029",
             "name": "getCollection",
-            "summary": "",
+            "summary": "\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u044C\u0020\u043A\u043E\u043B\u043B\u0435\u043A\u0446\u0438\u044E\u0020\u0441\u0443\u0449\u043D\u043E\u0441\u0442\u0435\u0439",
             "url": "classes/ZnCore-Contract-Domain-Interfaces-DataProviderInterface.html#method_getCollection"
         },                {
             "fqsen": "\\ZnCore\\Contract\\Domain\\Interfaces\\DataProviderInterface\u003A\u003AgetTotalCount\u0028\u0029",
             "name": "getTotalCount",
-            "summary": "",
+            "summary": "\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u044C\u0020\u043E\u0431\u0449\u0435\u0435\u0020\u043A\u043E\u043B\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E\u0020\u0437\u0430\u043F\u0438\u0441\u0435\u0439\u0020\u0432\u0020\u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0435",
             "url": "classes/ZnCore-Contract-Domain-Interfaces-DataProviderInterface.html#method_getTotalCount"
         },                {
             "fqsen": "\\ZnCore\\Contract\\Domain\\Interfaces\\Entities\\EntityIdInterface",
             "name": "EntityIdInterface",
-            "summary": "",
+            "summary": "\u0418\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0020\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u0430\u0020\u0022ID\u0022",
             "url": "classes/ZnCore-Contract-Domain-Interfaces-Entities-EntityIdInterface.html"
         },                {
             "fqsen": "\\ZnCore\\Contract\\Domain\\Interfaces\\Entities\\EntityIdInterface\u003A\u003AsetId\u0028\u0029",
@@ -48,47 +48,47 @@ Search.appendIndex(
         },                {
             "fqsen": "\\ZnCore\\Contract\\Domain\\Interfaces\\ForgeQueryByFilterInterface",
             "name": "ForgeQueryByFilterInterface",
-            "summary": "",
+            "summary": "\u0424\u043E\u0440\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\u0020\u043F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u043E\u0432\u0020\u0437\u0430\u043F\u0440\u043E\u0441\u0430\u0020\u0438\u0437\u0020\u0444\u0438\u043B\u044C\u0442\u0440\u0430",
             "url": "classes/ZnCore-Contract-Domain-Interfaces-ForgeQueryByFilterInterface.html"
         },                {
             "fqsen": "\\ZnCore\\Contract\\Domain\\Interfaces\\ForgeQueryByFilterInterface\u003A\u003AforgeQueryByFilter\u0028\u0029",
             "name": "forgeQueryByFilter",
-            "summary": "",
+            "summary": "\u0424\u043E\u0440\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\u0020\u043F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u043E\u0432\u0020\u0437\u0430\u043F\u0440\u043E\u0441\u0430\u0020\u0438\u0437\u0020\u0444\u0438\u043B\u044C\u0442\u0440\u0430",
             "url": "classes/ZnCore-Contract-Domain-Interfaces-ForgeQueryByFilterInterface.html#method_forgeQueryByFilter"
         },                {
             "fqsen": "\\ZnCore\\Contract\\Encoder\\Interfaces\\EncoderInterface",
             "name": "EncoderInterface",
-            "summary": "",
+            "summary": "\u0412\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u044C\u0020\u043A\u043E\u0434\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\/\u0434\u0435\u043A\u043E\u0434\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\u0020\u0434\u0430\u043D\u043D\u044B\u0445",
             "url": "classes/ZnCore-Contract-Encoder-Interfaces-EncoderInterface.html"
         },                {
             "fqsen": "\\ZnCore\\Contract\\Encoder\\Interfaces\\EncoderInterface\u003A\u003Aencode\u0028\u0029",
             "name": "encode",
-            "summary": "",
+            "summary": "\u041A\u043E\u0434\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\u0020\u0434\u0430\u043D\u043D\u044B\u0445",
             "url": "classes/ZnCore-Contract-Encoder-Interfaces-EncoderInterface.html#method_encode"
         },                {
             "fqsen": "\\ZnCore\\Contract\\Encoder\\Interfaces\\EncoderInterface\u003A\u003Adecode\u0028\u0029",
             "name": "decode",
-            "summary": "",
+            "summary": "\u0414\u0435\u043A\u043E\u0434\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\u0020\u0434\u0430\u043D\u043D\u044B\u0445",
             "url": "classes/ZnCore-Contract-Encoder-Interfaces-EncoderInterface.html#method_decode"
         },                {
             "fqsen": "\\ZnCore\\Contract\\Encoder\\Interfaces\\PrettifyInterface",
             "name": "PrettifyInterface",
-            "summary": "",
+            "summary": "\u0412\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u044C\u0020\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\u0020\u0434\u0430\u043D\u043D\u044B\u0445,\u0020\u0443\u0434\u043E\u0431\u043D\u044B\u0445\u0020\u0434\u043B\u044F\u0020\u0447\u0442\u0435\u043D\u0438\u044F\u0020\u0447\u0435\u043B\u043E\u0432\u0435\u043A\u043E\u043C",
             "url": "classes/ZnCore-Contract-Encoder-Interfaces-PrettifyInterface.html"
         },                {
             "fqsen": "\\ZnCore\\Contract\\Encoder\\Interfaces\\PrettifyInterface\u003A\u003Aprettify\u0028\u0029",
             "name": "prettify",
-            "summary": "",
+            "summary": "\u0424\u043E\u0440\u043C\u0430\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C\u0020\u0434\u0430\u043D\u043D\u044B\u0435",
             "url": "classes/ZnCore-Contract-Encoder-Interfaces-PrettifyInterface.html#method_prettify"
         },                {
             "fqsen": "\\ZnCore\\Contract\\Enum\\Interfaces\\GetLabelsInterface",
             "name": "GetLabelsInterface",
-            "summary": "",
+            "summary": "\u0412\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u044C\u0020\u043F\u043E\u043B\u0443\u0447\u0435\u043D\u0438\u044F\u0020\u043D\u0430\u0437\u0432\u0430\u043D\u0438\u0439\u0020\u043A\u043E\u043D\u0441\u0442\u0430\u043D\u0442",
             "url": "classes/ZnCore-Contract-Enum-Interfaces-GetLabelsInterface.html"
         },                {
             "fqsen": "\\ZnCore\\Contract\\Enum\\Interfaces\\GetLabelsInterface\u003A\u003AgetLabels\u0028\u0029",
             "name": "getLabels",
-            "summary": "",
+            "summary": "\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u044C\u0020\u043C\u0430\u0441\u0441\u0438\u0432\u0020\u043D\u0430\u0437\u0432\u0430\u043D\u0438\u0439",
             "url": "classes/ZnCore-Contract-Enum-Interfaces-GetLabelsInterface.html#method_getLabels"
         },                {
             "fqsen": "\\ZnCore\\Contract\\Kernel\\Interfaces\\KernelInterface",
@@ -108,12 +108,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\ZnCore\\Contract\\Rbac\\Interfaces\\GetRbacInheritanceInterface",
             "name": "GetRbacInheritanceInterface",
-            "summary": "",
+            "summary": "\u0412\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u044C\u0020\u043F\u043E\u043B\u0443\u0447\u0435\u043D\u0438\u044F\u0020\u0434\u0440\u0435\u0432\u0430\u0020\u043D\u0430\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u044F\u0020\u043F\u043E\u043B\u043D\u043E\u043C\u043E\u0447\u0438\u0439\u0020RBAC",
             "url": "classes/ZnCore-Contract-Rbac-Interfaces-GetRbacInheritanceInterface.html"
         },                {
             "fqsen": "\\ZnCore\\Contract\\Rbac\\Interfaces\\GetRbacInheritanceInterface\u003A\u003AgetInheritance\u0028\u0029",
             "name": "getInheritance",
-            "summary": "",
+            "summary": "\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u044C\u0020\u0434\u0440\u0435\u0432\u043E\u0020\u043D\u0430\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u044F",
             "url": "classes/ZnCore-Contract-Rbac-Interfaces-GetRbacInheritanceInterface.html#method_getInheritance"
         },                {
             "fqsen": "\\ZnCore\\Contract\\Rbac\\Traits\\CrudRbacInheritanceTrait",
@@ -138,7 +138,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\ZnCore\\Contract\\User\\Interfaces\\Entities\\IdentityEntityInterface",
             "name": "IdentityEntityInterface",
-            "summary": "",
+            "summary": "\u0418\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0020\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u0430\u0020\u0022ID\u0022",
             "url": "classes/ZnCore-Contract-User-Interfaces-Entities-IdentityEntityInterface.html"
         },                {
             "fqsen": "\\ZnCore\\Contract\\User\\Traits\\GetUserTrait",

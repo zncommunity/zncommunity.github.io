@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Documentation</title>
+    <title>Документация пакетов Zn</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../">
     <link rel="icon" href="images/favicon.ico"/>
@@ -23,7 +23,7 @@
     </head>
 <body id="top">
     <header class="phpdocumentor-header phpdocumentor-section">
-    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">Documentation</a></h1>
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">Документация пакетов Zn</a></h1>
     <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
     <label class="phpdocumentor-header__menu-icon" for="menu-button">
         <i class="fas fa-bars"></i>
@@ -67,6 +67,14 @@
             <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace"><a href="packages/Application.html">Application</a></h4>
 
+                                    <h4 class="phpdocumentor-sidebar__root-namespace"><a href="packages/ZnCore.html">ZnCore</a></h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/ZnCore-Contract.html">Contract</a>
+                
+            </li>
+            </ul>
+
                         </section>
             
     <section class="phpdocumentor-sidebar__category">
@@ -104,12 +112,14 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/zncore/contract/src/Domain/Interfaces/DataProviderInterface.php"><a href="files/vendor-zncore-contract-src-domain-interfaces-dataproviderinterface.html"><abbr title="vendor/zncore/contract/src/Domain/Interfaces/DataProviderInterface.php">DataProviderInterface.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">8</span>
+    <span class="phpdocumentor-element-found-in__line">13</span>
 
     </aside>
 
-        
-    <section class="phpdocumentor-description"></section>
+            <p class="phpdocumentor-summary">Провайдер данных</p>
+
+    <section class="phpdocumentor-description"><p>Используется при выборке коллекции сущностей и параметров пагинации</p>
+</section>
 
 
 
@@ -129,14 +139,14 @@
     <span>
                         &nbsp;: <abbr title="\Illuminate\Support\Collection">Collection</abbr>    </span>
 </dt>
-<dd></dd>
+<dd>Получить коллекцию сущностей</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/ZnCore-Contract-Domain-Interfaces-DataProviderInterface.html#method_getTotalCount">getTotalCount()</a>
     <span>
                         &nbsp;: int    </span>
 </dt>
-<dd></dd>
+<dd>Получить общее колличество записей в хранилище</dd>
 
         </dl>
 
@@ -162,17 +172,17 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/zncore/contract/src/Domain/Interfaces/DataProviderInterface.php"><a href="files/vendor-zncore-contract-src-domain-interfaces-dataproviderinterface.html"><abbr title="vendor/zncore/contract/src/Domain/Interfaces/DataProviderInterface.php">DataProviderInterface.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">11</span>
+    <span class="phpdocumentor-element-found-in__line">20</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Получить коллекцию сущностей</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getCollection</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\Illuminate\Support\Collection">Collection</abbr></span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
@@ -195,17 +205,17 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/zncore/contract/src/Domain/Interfaces/DataProviderInterface.php"><a href="files/vendor-zncore-contract-src-domain-interfaces-dataproviderinterface.html"><abbr title="vendor/zncore/contract/src/Domain/Interfaces/DataProviderInterface.php">DataProviderInterface.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">13</span>
+    <span class="phpdocumentor-element-found-in__line">26</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Получить общее колличество записей в хранилище</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getTotalCount</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 

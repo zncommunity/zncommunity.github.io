@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Documentation</title>
+    <title>Документация пакетов Zn</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../">
     <link rel="icon" href="images/favicon.ico"/>
@@ -23,7 +23,7 @@
     </head>
 <body id="top">
     <header class="phpdocumentor-header phpdocumentor-section">
-    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">Documentation</a></h1>
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">Документация пакетов Zn</a></h1>
     <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
     <label class="phpdocumentor-header__menu-icon" for="menu-button">
         <i class="fas fa-bars"></i>
@@ -67,6 +67,14 @@
             <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace"><a href="packages/Application.html">Application</a></h4>
 
+                                    <h4 class="phpdocumentor-sidebar__root-namespace"><a href="packages/ZnCore.html">ZnCore</a></h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/ZnCore-Contract.html">Contract</a>
+                
+            </li>
+            </ul>
+
                         </section>
             
     <section class="phpdocumentor-sidebar__category">
@@ -104,12 +112,14 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/zncore/contract/src/Rbac/Interfaces/GetRbacInheritanceInterface.php"><a href="files/vendor-zncore-contract-src-rbac-interfaces-getrbacinheritanceinterface.html"><abbr title="vendor/zncore/contract/src/Rbac/Interfaces/GetRbacInheritanceInterface.php">GetRbacInheritanceInterface.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">5</span>
+    <span class="phpdocumentor-element-found-in__line">10</span>
 
     </aside>
 
-        
-    <section class="phpdocumentor-description"></section>
+            <p class="phpdocumentor-summary">Возможность получения древа наследования полномочий RBAC</p>
+
+    <section class="phpdocumentor-description"><p>Например, можно заранее определить все CRUD-полномочия в один и далее компактно и лаконично его использовать</p>
+</section>
 
 
 
@@ -127,9 +137,9 @@
                     <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/ZnCore-Contract-Rbac-Interfaces-GetRbacInheritanceInterface.html#method_getInheritance">getInheritance()</a>
     <span>
-                        &nbsp;: mixed    </span>
+                        &nbsp;: array&lt;string|int, mixed&gt;    </span>
 </dt>
-<dd></dd>
+<dd>Получить древо наследования</dd>
 
         </dl>
 
@@ -155,22 +165,22 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/zncore/contract/src/Rbac/Interfaces/GetRbacInheritanceInterface.php"><a href="files/vendor-zncore-contract-src-rbac-interfaces-getrbacinheritanceinterface.html"><abbr title="vendor/zncore/contract/src/Rbac/Interfaces/GetRbacInheritanceInterface.php">GetRbacInheritanceInterface.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">8</span>
+    <span class="phpdocumentor-element-found-in__line">17</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Получить древо наследования</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getInheritance</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+            <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__name">getInheritance</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">mixed</span>
+    <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
             &mdash;
         
     
