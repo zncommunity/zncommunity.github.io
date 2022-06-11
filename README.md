@@ -1,4 +1,4 @@
-# Компиляция документации пакетов Zn
+# Документация пакетов Zn
 
 * [API](https://zncommunity.github.io/api)
 * [Руководство](https://github.com/zndoc/rails)
