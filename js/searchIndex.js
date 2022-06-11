@@ -118,7 +118,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\ZnCore\\Contract\\Rbac\\Traits\\CrudRbacInheritanceTrait",
             "name": "CrudRbacInheritanceTrait",
-            "summary": "",
+            "summary": "\u041D\u0430\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435\u0020\u0432\u0441\u0435\u0445\u0020CRUD\u002D\u043F\u043E\u043B\u043D\u043E\u043C\u043E\u0447\u0438\u0439\u0020\u0432\u0020\u043E\u0431\u0449\u0435\u0435\u0020\u043F\u043E\u043B\u043D\u043E\u043C\u043E\u0447\u0438\u0435",
             "url": "classes/ZnCore-Contract-Rbac-Traits-CrudRbacInheritanceTrait.html"
         },                {
             "fqsen": "\\ZnCore\\Contract\\Rbac\\Traits\\CrudRbacInheritanceTrait\u003A\u003AgetInheritance\u0028\u0029",
@@ -128,32 +128,32 @@ Search.appendIndex(
         },                {
             "fqsen": "\\ZnCore\\Contract\\User\\Exceptions\\ForbiddenException",
             "name": "ForbiddenException",
-            "summary": "",
+            "summary": "\u041D\u0435\u0020\u0434\u043E\u0441\u0442\u0430\u0442\u043E\u0447\u043D\u043E\u0020\u043F\u043E\u043B\u043D\u043E\u043C\u043E\u0447\u0438\u0439",
             "url": "classes/ZnCore-Contract-User-Exceptions-ForbiddenException.html"
         },                {
             "fqsen": "\\ZnCore\\Contract\\User\\Exceptions\\UnauthorizedException",
             "name": "UnauthorizedException",
-            "summary": "",
+            "summary": "\u041D\u0435\u0020\u0430\u0443\u0442\u0435\u043D\u0442\u0438\u0444\u0438\u0446\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0439\u0020\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044C",
             "url": "classes/ZnCore-Contract-User-Exceptions-UnauthorizedException.html"
         },                {
             "fqsen": "\\ZnCore\\Contract\\User\\Interfaces\\Entities\\IdentityEntityInterface",
             "name": "IdentityEntityInterface",
-            "summary": "\u0418\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0020\u0430\u0442\u0440\u0438\u0431\u0443\u0442\u0430\u0020\u0022ID\u0022",
+            "summary": "\u0418\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0020\u0441\u0443\u0449\u043D\u043E\u0441\u0442\u0438\u0020\u0430\u043A\u043A\u0430\u0443\u043D\u0442\u0430\u0020\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044F",
             "url": "classes/ZnCore-Contract-User-Interfaces-Entities-IdentityEntityInterface.html"
         },                {
             "fqsen": "\\ZnCore\\Contract\\User\\Traits\\GetUserTrait",
             "name": "GetUserTrait",
-            "summary": "",
+            "summary": "\u0420\u0430\u0431\u043E\u0442\u0430\u0020\u0441\u0020\u0441\u0443\u0449\u043D\u043E\u0441\u0442\u044C\u044E\u0020\u0430\u0443\u0442\u0435\u043D\u0442\u0438\u0444\u0438\u0446\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u043E\u0433\u043E\u0020\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044F",
             "url": "classes/ZnCore-Contract-User-Traits-GetUserTrait.html"
         },                {
             "fqsen": "\\ZnCore\\Contract\\User\\Traits\\GetUserTrait\u003A\u003AgetUser\u0028\u0029",
             "name": "getUser",
-            "summary": "",
+            "summary": "\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u044C\u0020\u0441\u0443\u0449\u043D\u043E\u0441\u0442\u044C\u0020\u0430\u043A\u043A\u0430\u0443\u043D\u0442\u0430",
             "url": "classes/ZnCore-Contract-User-Traits-GetUserTrait.html#method_getUser"
         },                {
             "fqsen": "\\ZnCore\\Contract\\User\\Traits\\GetUserTrait\u003A\u003AsetSecurity\u0028\u0029",
             "name": "setSecurity",
-            "summary": "",
+            "summary": "\u041D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435\u0020\u043E\u0431\u0449\u0435\u0433\u043E\u0020\u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0430\u0020\u0430\u043A\u043A\u0430\u0443\u043D\u0442\u0430\u0020\u0438\u0020\u0442\u043E\u043A\u0435\u043D\u0430",
             "url": "classes/ZnCore-Contract-User-Traits-GetUserTrait.html#method_setSecurity"
         },                {
             "fqsen": "\\ZnCore\\Contract\\User\\Traits\\GetUserTrait\u003A\u003A\u0024user",
