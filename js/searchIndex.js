@@ -153,12 +153,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\ZnCore\\Contract\\User\\Traits\\GetUserTrait\u003A\u003AsetSecurity\u0028\u0029",
             "name": "setSecurity",
-            "summary": "\u041D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435\u0020\u043E\u0431\u0449\u0435\u0433\u043E\u0020\u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0430\u0020\u0430\u043A\u043A\u0430\u0443\u043D\u0442\u0430\u0020\u0438\u0020\u0442\u043E\u043A\u0435\u043D\u0430",
+            "summary": "\u041D\u0430\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435\u0020\u043E\u0431\u0449\u0435\u0433\u043E\u0020\u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0430\u0020\u0430\u043A\u043A\u0430\u0443\u043D\u0442\u0430\u0020\u0438\u0020\u0435\u0433\u043E\u0020\u0442\u043E\u043A\u0435\u043D\u0430",
             "url": "classes/ZnCore-Contract-User-Traits-GetUserTrait.html#method_setSecurity"
         },                {
             "fqsen": "\\ZnCore\\Contract\\User\\Traits\\GetUserTrait\u003A\u003A\u0024user",
             "name": "user",
-            "summary": "",
+            "summary": "\u0421\u0443\u0449\u043D\u043E\u0441\u0442\u044C\u0020\u0430\u043A\u043A\u0430\u0443\u043D\u0442\u0430",
             "url": "classes/ZnCore-Contract-User-Traits-GetUserTrait.html#property_user"
         },                {
             "fqsen": "\\",
