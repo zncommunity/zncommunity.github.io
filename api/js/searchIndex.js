@@ -1426,6 +1426,116 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/ZnCore-Base-Enums-StatusSimpleEnum.html#constant_DELETED"
         },                {
+            "fqsen": "\\ZnCore\\Base\\Exceptions\\AlreadyExistsException",
+            "name": "AlreadyExistsException",
+            "summary": "\u0421\u0443\u0449\u043D\u043E\u0441\u0442\u044C\u0020\u0443\u0436\u0435\u0020\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0442\u0020\u0432\u0020\u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0435",
+            "url": "classes/ZnCore-Base-Exceptions-AlreadyExistsException.html"
+        },                {
+            "fqsen": "\\ZnCore\\Base\\Exceptions\\AlreadyExistsException\u003A\u003AgetEntity\u0028\u0029",
+            "name": "getEntity",
+            "summary": "",
+            "url": "classes/ZnCore-Base-Exceptions-AlreadyExistsException.html#method_getEntity"
+        },                {
+            "fqsen": "\\ZnCore\\Base\\Exceptions\\AlreadyExistsException\u003A\u003AsetEntity\u0028\u0029",
+            "name": "setEntity",
+            "summary": "",
+            "url": "classes/ZnCore-Base-Exceptions-AlreadyExistsException.html#method_setEntity"
+        },                {
+            "fqsen": "\\ZnCore\\Base\\Exceptions\\AlreadyExistsException\u003A\u003AgetFields\u0028\u0029",
+            "name": "getFields",
+            "summary": "",
+            "url": "classes/ZnCore-Base-Exceptions-AlreadyExistsException.html#method_getFields"
+        },                {
+            "fqsen": "\\ZnCore\\Base\\Exceptions\\AlreadyExistsException\u003A\u003AsetFields\u0028\u0029",
+            "name": "setFields",
+            "summary": "",
+            "url": "classes/ZnCore-Base-Exceptions-AlreadyExistsException.html#method_setFields"
+        },                {
+            "fqsen": "\\ZnCore\\Base\\Exceptions\\AlreadyExistsException\u003A\u003A\u0024entity",
+            "name": "entity",
+            "summary": "\u0421\u0443\u0449\u043D\u043E\u0441\u0442\u044C",
+            "url": "classes/ZnCore-Base-Exceptions-AlreadyExistsException.html#property_entity"
+        },                {
+            "fqsen": "\\ZnCore\\Base\\Exceptions\\AlreadyExistsException\u003A\u003A\u0024fields",
+            "name": "fields",
+            "summary": "\u0423\u043D\u0438\u043A\u0430\u043B\u044C\u043D\u044B\u0435\u0020\u043F\u043E\u043B\u044F\u0020\u0441\u0443\u0449\u043D\u043E\u0441\u0442\u0438,\u0020\u043F\u043E\u0020\u043A\u043E\u0442\u043E\u0440\u044B\u043C\u0020\u043E\u043D\u043E\u0020\u043D\u0430\u0439\u0434\u0435\u043D\u043E\u0020\u0432\u0020\u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0435",
+            "url": "classes/ZnCore-Base-Exceptions-AlreadyExistsException.html#property_fields"
+        },                {
+            "fqsen": "\\ZnCore\\Base\\Exceptions\\ClassNotFoundException",
+            "name": "ClassNotFoundException",
+            "summary": "\u041A\u043B\u0430\u0441\u0441\u0020\u043D\u0435\u0020\u043D\u0430\u0439\u0434\u0435\u043D",
+            "url": "classes/ZnCore-Base-Exceptions-ClassNotFoundException.html"
+        },                {
+            "fqsen": "\\ZnCore\\Base\\Exceptions\\DeprecatedException",
+            "name": "DeprecatedException",
+            "summary": "\u0424\u0443\u043D\u043A\u0446\u0438\u043E\u043D\u0430\u043B\u0020\u0443\u0441\u0442\u0430\u0440\u0435\u043B\u0020\u0438\u0020\u0431\u0443\u0434\u0435\u0442\u0020\u0443\u0434\u0430\u043B\u0435\u043D\u0020\u0432\u0020\u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0435\u0439\u0020\u043C\u0430\u0436\u043E\u0440\u043D\u043E\u0439\u0020\u0432\u0435\u0440\u0441\u0438\u0438",
+            "url": "classes/ZnCore-Base-Exceptions-DeprecatedException.html"
+        },                {
+            "fqsen": "\\ZnCore\\Base\\Exceptions\\InternalServerErrorException",
+            "name": "InternalServerErrorException",
+            "summary": "\u0412\u043D\u0443\u0442\u0440\u0435\u043D\u043D\u044F\u044F\u0020\u043E\u0448\u0438\u0431\u043A\u0430\u0020\u0441\u0435\u0440\u0432\u0435\u0440\u0430",
+            "url": "classes/ZnCore-Base-Exceptions-InternalServerErrorException.html"
+        },                {
+            "fqsen": "\\ZnCore\\Base\\Exceptions\\InvalidArgumentException",
+            "name": "InvalidArgumentException",
+            "summary": "\u041D\u0435\u0432\u0435\u0440\u043D\u044B\u0439\u0020\u0430\u0440\u0433\u0443\u043C\u0435\u043D\u0442\u0020\u043C\u0435\u0442\u043E\u0434\u0430",
+            "url": "classes/ZnCore-Base-Exceptions-InvalidArgumentException.html"
+        },                {
+            "fqsen": "\\ZnCore\\Base\\Exceptions\\InvalidConfigException",
+            "name": "InvalidConfigException",
+            "summary": "\u041E\u0448\u0438\u0431\u043A\u0430\u0020\u043A\u043E\u043D\u0444\u0438\u0433\u0443\u0440\u0430\u0446\u0438\u0438",
+            "url": "classes/ZnCore-Base-Exceptions-InvalidConfigException.html"
+        },                {
+            "fqsen": "\\ZnCore\\Base\\Exceptions\\InvalidMethodParameterException",
+            "name": "InvalidMethodParameterException",
+            "summary": "\u041D\u0435\u0432\u0435\u0440\u043D\u044B\u0439\u0020\u043F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u0020\u043C\u0435\u0442\u043E\u0434\u0430",
+            "url": "classes/ZnCore-Base-Exceptions-InvalidMethodParameterException.html"
+        },                {
+            "fqsen": "\\ZnCore\\Base\\Exceptions\\InvalidMethodParameterException\u003A\u003AgetParameterName\u0028\u0029",
+            "name": "getParameterName",
+            "summary": "",
+            "url": "classes/ZnCore-Base-Exceptions-InvalidMethodParameterException.html#method_getParameterName"
+        },                {
+            "fqsen": "\\ZnCore\\Base\\Exceptions\\InvalidMethodParameterException\u003A\u003AsetParameterName\u0028\u0029",
+            "name": "setParameterName",
+            "summary": "",
+            "url": "classes/ZnCore-Base-Exceptions-InvalidMethodParameterException.html#method_setParameterName"
+        },                {
+            "fqsen": "\\ZnCore\\Base\\Exceptions\\InvalidMethodParameterException\u003A\u003A\u0024parameterName",
+            "name": "parameterName",
+            "summary": "\u0418\u043C\u044F\u0020\u043D\u0435\u0432\u0435\u0440\u043D\u043E\u0433\u043E\u0020\u043F\u0430\u0440\u0430\u043C\u0435\u0442\u0440\u0430",
+            "url": "classes/ZnCore-Base-Exceptions-InvalidMethodParameterException.html#property_parameterName"
+        },                {
+            "fqsen": "\\ZnCore\\Base\\Exceptions\\NotFoundDependencyException",
+            "name": "NotFoundDependencyException",
+            "summary": "Composer\u002D\u0437\u0430\u0432\u0438\u0441\u0438\u043C\u043E\u0441\u0442\u044C\u0020\u043D\u0435\u0020\u043D\u0430\u0439\u0434\u0435\u043D\u0430",
+            "url": "classes/ZnCore-Base-Exceptions-NotFoundDependencyException.html"
+        },                {
+            "fqsen": "\\ZnCore\\Base\\Exceptions\\NotFoundException",
+            "name": "NotFoundException",
+            "summary": "\u0421\u0443\u0449\u043D\u043E\u0441\u0442\u044C\u0020\u043D\u0435\u0020\u043D\u0430\u0439\u0434\u0435\u043D\u0430\u0020\u0432\u0020\u0445\u0440\u0430\u043D\u0438\u043B\u0438\u0449\u0435",
+            "url": "classes/ZnCore-Base-Exceptions-NotFoundException.html"
+        },                {
+            "fqsen": "\\ZnCore\\Base\\Exceptions\\NotImplementedMethodException",
+            "name": "NotImplementedMethodException",
+            "summary": "\u0417\u0430\u0433\u043B\u0443\u0448\u043A\u0430\u0020\u0434\u043B\u044F\u0020\u043D\u0435\u043D\u0443\u0436\u043D\u044B\u0445\u0020\u043C\u0435\u0442\u043E\u0434\u043E\u0432\u0020\u0438\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0430",
+            "url": "classes/ZnCore-Base-Exceptions-NotImplementedMethodException.html"
+        },                {
+            "fqsen": "\\ZnCore\\Base\\Exceptions\\NotInstanceOfException",
+            "name": "NotInstanceOfException",
+            "summary": "\u041A\u043B\u0430\u0441\u0441\u0020\u043D\u0435\u0020\u044F\u0432\u043B\u044F\u0435\u0442\u0441\u044F\u0020\u0438\u043D\u0441\u0442\u0430\u043D\u0441\u043E\u043C\u0020\u043A\u043B\u0430\u0441\u0441\u0430\/\u0438\u043D\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u0430",
+            "url": "classes/ZnCore-Base-Exceptions-NotInstanceOfException.html"
+        },                {
+            "fqsen": "\\ZnCore\\Base\\Exceptions\\NotSupportedException",
+            "name": "NotSupportedException",
+            "summary": "\u0424\u0443\u043D\u043A\u0446\u0438\u043E\u043D\u0430\u043B\u0020\u043D\u0435\u0020\u043F\u043E\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u0442\u0441\u044F\u0020\u0432\u0020\u0434\u0430\u043D\u043D\u043E\u0439\u0020\u0440\u0435\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u0438",
+            "url": "classes/ZnCore-Base-Exceptions-NotSupportedException.html"
+        },                {
+            "fqsen": "\\ZnCore\\Base\\Exceptions\\ReadOnlyException",
+            "name": "ReadOnlyException",
+            "summary": "\u0417\u043D\u0430\u0447\u0435\u043D\u0438\u0435\u0020\u0442\u043E\u043B\u044C\u043A\u043E\u0020\u0434\u043B\u044F\u0020\u0447\u0442\u0435\u043D\u0438\u044F",
+            "url": "classes/ZnCore-Base-Exceptions-ReadOnlyException.html"
+        },                {
             "fqsen": "\\ZnCore\\Contract\\Arr\\Interfaces\\ToArrayInterface",
             "name": "ToArrayInterface",
             "summary": "\u0412\u043E\u0437\u043C\u043E\u0436\u043D\u043E\u0441\u0442\u044C\u0020\u043F\u0440\u0435\u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u0442\u044C\u0020\u0434\u0430\u043D\u043D\u044B\u0435\u0020\u0432\u0020\u043C\u0430\u0441\u0441\u0438\u0432.",
@@ -1620,6 +1730,11 @@ Search.appendIndex(
             "name": "Measure",
             "summary": "",
             "url": "namespaces/zncore-base-enums-measure.html"
+        },                {
+            "fqsen": "\\ZnCore\\Base\\Exceptions",
+            "name": "Exceptions",
+            "summary": "",
+            "url": "namespaces/zncore-base-exceptions.html"
         },                {
             "fqsen": "\\ZnCore\\Contract\\Arr\\Interfaces",
             "name": "Interfaces",
