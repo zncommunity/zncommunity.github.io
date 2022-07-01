@@ -57,11 +57,11 @@
                                     <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/zncore.html">ZnCore</a></h4>
     <ul class="phpdocumentor-list">
                     <li>
-                <a href="namespaces/zncore-base.html">Base</a>
+                <a href="namespaces/zncore-contract.html">Contract</a>
                 
             </li>
                     <li>
-                <a href="namespaces/zncore-contract.html">Contract</a>
+                <a href="namespaces/zncore-domain.html">Domain</a>
                 
             </li>
             </ul>
@@ -97,6 +97,9 @@
     <article class="phpdocumentor-element -interface">
         <h2 class="phpdocumentor-content__title">
     EncoderInterface
+            <span class="phpdocumentor-element__extends">
+            extends
+                            <a href="classes/ZnCore-Contract-Encoder-Interfaces-EncodeInterface.html"><abbr title="\ZnCore\Contract\Encoder\Interfaces\EncodeInterface">EncodeInterface</abbr></a>,                             <a href="classes/ZnCore-Contract-Encoder-Interfaces-DecodeInterface.html"><abbr title="\ZnCore\Contract\Encoder\Interfaces\DecodeInterface">DecodeInterface</abbr></a>                    </span>
                 <div class="phpdocumentor-element__package">
             in
             <ul class="phpdocumentor-breadcrumbs">
@@ -108,7 +111,7 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="vendor/zncore/contract/src/Encoder/Interfaces/EncoderInterface.php"><a href="files/vendor-zncore-contract-src-encoder-interfaces-encoderinterface.html"><abbr title="vendor/zncore/contract/src/Encoder/Interfaces/EncoderInterface.php">EncoderInterface.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">10</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 
     </aside>
 
@@ -118,6 +121,37 @@
 </section>
 
 
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">todo</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>наследовать от:</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">see</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                    <span class="phpdocumentor-tag-link"><abbr title="\Symfony\Component\Serializer\Encoder\EncoderInterface">EncoderInterface</abbr></span>
+                                        
+                                             
+                                    </dd>
+                            <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">see</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                    <span class="phpdocumentor-tag-link"><abbr title="\Symfony\Component\Serializer\Encoder\DecoderInterface">DecoderInterface</abbr></span>
+                                        
+                                             
+                                    </dd>
+                        </dl>
 
 
 
@@ -131,14 +165,14 @@
 
 <dl class="phpdocumentor-table-of-contents">
                     <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/ZnCore-Contract-Encoder-Interfaces-EncoderInterface.html#method_decode">decode()</a>
+    <a href="classes/ZnCore-Contract-Encoder-Interfaces-DecodeInterface.html#method_decode">decode()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
 <dd>Декодирование данных</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/ZnCore-Contract-Encoder-Interfaces-EncoderInterface.html#method_encode">encode()</a>
+    <a href="classes/ZnCore-Contract-Encoder-Interfaces-EncodeInterface.html#method_encode">encode()</a>
     <span>
                         &nbsp;: mixed    </span>
 </dt>
@@ -163,12 +197,12 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_decode">
         decode()
-        <a href="classes/ZnCore-Contract-Encoder-Interfaces-EncoderInterface.html#method_decode" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/ZnCore-Contract-Encoder-Interfaces-DecodeInterface.html#method_decode" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="vendor/zncore/contract/src/Encoder/Interfaces/EncoderInterface.php"><a href="files/vendor-zncore-contract-src-encoder-interfaces-encoderinterface.html"><abbr title="vendor/zncore/contract/src/Encoder/Interfaces/EncoderInterface.php">EncoderInterface.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/zncore/contract/src/Encoder/Interfaces/DecodeInterface.php"><a href="files/vendor-zncore-contract-src-encoder-interfaces-decodeinterface.html"><abbr title="vendor/zncore/contract/src/Encoder/Interfaces/DecodeInterface.php">DecodeInterface.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 
     </aside>
 
@@ -176,14 +210,14 @@
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">decode</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$encodedData</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                <span class="phpdocumentor-signature__name">decode</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$encodedData</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$encodedData</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a></span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"><p>Закодированные данные</p>
@@ -208,12 +242,12 @@
 >
     <h4 class="phpdocumentor-element__name" id="method_encode">
         encode()
-        <a href="classes/ZnCore-Contract-Encoder-Interfaces-EncoderInterface.html#method_encode" class="headerlink"><i class="fas fa-link"></i></a>
+        <a href="classes/ZnCore-Contract-Encoder-Interfaces-EncodeInterface.html#method_encode" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="vendor/zncore/contract/src/Encoder/Interfaces/EncoderInterface.php"><a href="files/vendor-zncore-contract-src-encoder-interfaces-encoderinterface.html"><abbr title="vendor/zncore/contract/src/Encoder/Interfaces/EncoderInterface.php">EncoderInterface.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/zncore/contract/src/Encoder/Interfaces/EncodeInterface.php"><a href="files/vendor-zncore-contract-src-encoder-interfaces-encodeinterface.html"><abbr title="vendor/zncore/contract/src/Encoder/Interfaces/EncodeInterface.php">EncodeInterface.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">19</span>
+    <span class="phpdocumentor-element-found-in__line">14</span>
 
     </aside>
 
@@ -221,14 +255,14 @@
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">encode</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$data</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+                <span class="phpdocumentor-signature__name">encode</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$data</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
     
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$data</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href=""><abbr title=""></abbr></a></span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"><p>Исходные данные</p>
