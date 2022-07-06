@@ -64,6 +64,10 @@
                 <a href="namespaces/zncore-domain.html">Domain</a>
                 
             </li>
+                    <li>
+                <a href="namespaces/zncore-service.html">Service</a>
+                
+            </li>
             </ul>
 
                         </section>
@@ -100,7 +104,7 @@
     IdentityEntityInterface
             <span class="phpdocumentor-element__extends">
             extends
-                            <a href="classes/ZnCore-Domain-Entity-Interfaces-EntityIdInterface.html"><abbr title="\ZnCore\Domain\Entity\Interfaces\EntityIdInterface">EntityIdInterface</abbr></a>                    </span>
+                            <abbr title="\ZnCore\Entity\Interfaces\EntityIdInterface">EntityIdInterface</abbr>                    </span>
                 <div class="phpdocumentor-element__package">
             in
             <ul class="phpdocumentor-breadcrumbs">
@@ -133,18 +137,18 @@
 
 <dl class="phpdocumentor-table-of-contents">
                     <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/ZnCore-Domain-Entity-Interfaces-EntityIdInterface.html#method_getId">getId()</a>
+    <a href="classes/ZnCore-Contract-User-Interfaces-Entities-IdentityEntityInterface.html#method_getPerson">getPerson()</a>
     <span>
-                        &nbsp;: int    </span>
+                        &nbsp;: <a href="classes/ZnCore-Contract-User-Interfaces-Entities-PersonEntityInterface.html"><abbr title="\ZnCore\Contract\User\Interfaces\Entities\PersonEntityInterface">PersonEntityInterface</abbr></a>|null    </span>
 </dt>
-<dd></dd>
+<dd>Сущность персоны</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/ZnCore-Domain-Entity-Interfaces-EntityIdInterface.html#method_setId">setId()</a>
+    <a href="classes/ZnCore-Contract-User-Interfaces-Entities-IdentityEntityInterface.html#method_getUsername">getUsername()</a>
     <span>
-                        &nbsp;: void    </span>
+                        &nbsp;: string    </span>
 </dt>
-<dd></dd>
+<dd>ФИО или логин пользователя</dd>
 
         </dl>
 
@@ -163,28 +167,29 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_getId">
-        getId()
-        <a href="classes/ZnCore-Domain-Entity-Interfaces-EntityIdInterface.html#method_getId" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getPerson">
+        getPerson()
+        <a href="classes/ZnCore-Contract-User-Interfaces-Entities-IdentityEntityInterface.html#method_getPerson" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="vendor/zncore/domain/src/Entity/Interfaces/EntityIdInterface.php"><a href="files/vendor-zncore-domain-src-entity-interfaces-entityidinterface.html"><abbr title="vendor/zncore/domain/src/Entity/Interfaces/EntityIdInterface.php">EntityIdInterface.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/zncore/contract/src/User/Interfaces/Entities/IdentityEntityInterface.php"><a href="files/vendor-zncore-contract-src-user-interfaces-entities-identityentityinterface.html"><abbr title="vendor/zncore/contract/src/User/Interfaces/Entities/IdentityEntityInterface.php">IdentityEntityInterface.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">22</span>
+    <span class="phpdocumentor-element-found-in__line">23</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">Сущность персоны</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">getId</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+                <span class="phpdocumentor-signature__name">getPerson</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/ZnCore-Contract-User-Interfaces-Entities-PersonEntityInterface.html"><abbr title="\ZnCore\Contract\User\Interfaces\Entities\PersonEntityInterface">PersonEntityInterface</abbr></a>|null</span></code>
 
     
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">int</span>
+    <span class="phpdocumentor-signature__response_type"><a href="classes/ZnCore-Contract-User-Interfaces-Entities-PersonEntityInterface.html"><abbr title="\ZnCore\Contract\User\Interfaces\Entities\PersonEntityInterface">PersonEntityInterface</abbr></a>|null</span>
             &mdash;
         
     
@@ -195,38 +200,29 @@
             -public
                                                         "
 >
-    <h4 class="phpdocumentor-element__name" id="method_setId">
-        setId()
-        <a href="classes/ZnCore-Domain-Entity-Interfaces-EntityIdInterface.html#method_setId" class="headerlink"><i class="fas fa-link"></i></a>
+    <h4 class="phpdocumentor-element__name" id="method_getUsername">
+        getUsername()
+        <a href="classes/ZnCore-Contract-User-Interfaces-Entities-IdentityEntityInterface.html#method_getUsername" class="headerlink"><i class="fas fa-link"></i></a>
     </h4>
     <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="vendor/zncore/domain/src/Entity/Interfaces/EntityIdInterface.php"><a href="files/vendor-zncore-domain-src-entity-interfaces-entityidinterface.html"><abbr title="vendor/zncore/domain/src/Entity/Interfaces/EntityIdInterface.php">EntityIdInterface.php</abbr></a></abbr>
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/zncore/contract/src/User/Interfaces/Entities/IdentityEntityInterface.php"><a href="files/vendor-zncore-contract-src-user-interfaces-entities-identityentityinterface.html"><abbr title="vendor/zncore/contract/src/User/Interfaces/Entities/IdentityEntityInterface.php">IdentityEntityInterface.php</abbr></a></abbr>
     :
     <span class="phpdocumentor-element-found-in__line">17</span>
 
     </aside>
 
-    
+        <p class="phpdocumentor-summary">ФИО или логин пользователя</p>
+
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">setId</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$id</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                <span class="phpdocumentor-signature__name">getUsername</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
     
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$id</span>
-                : <span class="phpdocumentor-signature__argument__return-type">int</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
+    
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
+    <span class="phpdocumentor-signature__response_type">string</span>
             &mdash;
         
     
