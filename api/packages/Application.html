@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Документация пакетов Zn</title>
+            <title>Документация пакетов Zn</title>
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <base href="../">
     <link rel="icon" href="images/favicon.ico"/>
@@ -54,18 +55,32 @@
 <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
                     <section class="phpdocumentor-sidebar__category">
             <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
-                                    <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/zncore.html">ZnCore</a></h4>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/zncore.html" class="">ZnCore</a>
+</h4>
     <ul class="phpdocumentor-list">
                     <li>
-                <a href="namespaces/zncore-contract.html">Contract</a>
+                <a href="namespaces/zncore-app.html" class="">App</a>
                 
             </li>
                     <li>
-                <a href="namespaces/zncore-domain.html">Domain</a>
+                <a href="namespaces/zncore-bundle.html" class="">Bundle</a>
                 
             </li>
                     <li>
-                <a href="namespaces/zncore-service.html">Service</a>
+                <a href="namespaces/zncore-collection.html" class="">Collection</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/zncore-configmanager.html" class="">ConfigManager</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/zncore-contract.html" class="">Contract</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/zncore-enum.html" class="">Enum</a>
                 
             </li>
             </ul>
@@ -73,7 +88,9 @@
                         </section>
                 <section class="phpdocumentor-sidebar__category">
             <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
-                                    <h4 class="phpdocumentor-sidebar__root-namespace"><a href="packages/Application.html">Application</a></h4>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Application.html" class="-active">Application</a>
+</h4>
 
                         </section>
             
@@ -100,19 +117,25 @@
         
 
 <h3 id="interfaces_class_traits">
-    Interfaces, Classes and Traits
+    Interfaces, Classes, Traits and Enums
     <a href="#interfaces_class_traits" class="headerlink"><i class="fas fa-link"></i></a>
 </h3>
 
 <dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/ZnCore-App-Interfaces-AppInterface.html"><abbr title="\ZnCore\App\Interfaces\AppInterface">AppInterface</abbr></a></dt>
+        <dd>Интерфейс приложения.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/ZnCore-Collection-Interfaces-Enumerable.html"><abbr title="\ZnCore\Collection\Interfaces\Enumerable">Enumerable</abbr></a></dt>
+        <dd>Интерфейс коллекции сущностей</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/ZnCore-ConfigManager-Interfaces-ConfigManagerInterface.html"><abbr title="\ZnCore\ConfigManager\Interfaces\ConfigManagerInterface">ConfigManagerInterface</abbr></a></dt>
+        <dd>Реестр для хранения конфигов.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/ZnCore-Contract-Arr-Interfaces-ToArrayInterface.html"><abbr title="\ZnCore\Contract\Arr\Interfaces\ToArrayInterface">ToArrayInterface</abbr></a></dt>
         <dd>Возможность преобразовать данные в массив.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/ZnCore-Contract-Common-Interfaces-GetNameInterface.html"><abbr title="\ZnCore\Contract\Common\Interfaces\GetNameInterface">GetNameInterface</abbr></a></dt>
         <dd></dd>
             <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/ZnCore-Contract-Encoder-Interfaces-DecodeInterface.html"><abbr title="\ZnCore\Contract\Encoder\Interfaces\DecodeInterface">DecodeInterface</abbr></a></dt>
-        <dd></dd>
+        <dd>Возможность декодирования данных</dd>
             <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/ZnCore-Contract-Encoder-Interfaces-EncodeInterface.html"><abbr title="\ZnCore\Contract\Encoder\Interfaces\EncodeInterface">EncodeInterface</abbr></a></dt>
-        <dd></dd>
+        <dd>Возможность кодирования данных</dd>
             <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/ZnCore-Contract-Encoder-Interfaces-EncoderInterface.html"><abbr title="\ZnCore\Contract\Encoder\Interfaces\EncoderInterface">EncoderInterface</abbr></a></dt>
         <dd>Возможность кодирования/декодирования данных</dd>
             <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/ZnCore-Contract-Encoder-Interfaces-PrettifyInterface.html"><abbr title="\ZnCore\Contract\Encoder\Interfaces\PrettifyInterface">PrettifyInterface</abbr></a></dt>
@@ -123,29 +146,29 @@
         <dd>Интерфейс сущности аккаунта пользователя</dd>
             <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/ZnCore-Contract-User-Interfaces-Entities-PersonEntityInterface.html"><abbr title="\ZnCore\Contract\User\Interfaces\Entities\PersonEntityInterface">PersonEntityInterface</abbr></a></dt>
         <dd>Интерфейс сущности персоны пользователя</dd>
-            <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/ZnCore-Domain-Interfaces-CountInterface.html"><abbr title="\ZnCore\Domain\Interfaces\CountInterface">CountInterface</abbr></a></dt>
-        <dd></dd>
-            <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/ZnCore-Domain-Interfaces-DomainInterface.html"><abbr title="\ZnCore\Domain\Interfaces\DomainInterface">DomainInterface</abbr></a></dt>
-        <dd></dd>
-            <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/ZnCore-Domain-Interfaces-FindAllInterface.html"><abbr title="\ZnCore\Domain\Interfaces\FindAllInterface">FindAllInterface</abbr></a></dt>
-        <dd></dd>
-            <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/ZnCore-Domain-Interfaces-GetEntityClassInterface.html"><abbr title="\ZnCore\Domain\Interfaces\GetEntityClassInterface">GetEntityClassInterface</abbr></a></dt>
-        <dd></dd>
-            <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/ZnCore-Domain-Interfaces-ReadAllInterface.html"><abbr title="\ZnCore\Domain\Interfaces\ReadAllInterface">ReadAllInterface</abbr></a></dt>
-        <dd></dd>
-            <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/ZnCore-Service-Interfaces-CreateEntityInterface.html"><abbr title="\ZnCore\Service\Interfaces\CreateEntityInterface">CreateEntityInterface</abbr></a></dt>
-        <dd></dd>
-            <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/ZnCore-Service-Interfaces-CrudServiceInterface.html"><abbr title="\ZnCore\Service\Interfaces\CrudServiceInterface">CrudServiceInterface</abbr></a></dt>
-        <dd></dd>
-            <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/ZnCore-Service-Interfaces-FindOneInterface.html"><abbr title="\ZnCore\Service\Interfaces\FindOneInterface">FindOneInterface</abbr></a></dt>
-        <dd></dd>
-            <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/ZnCore-Service-Interfaces-ModifyInterface.html"><abbr title="\ZnCore\Service\Interfaces\ModifyInterface">ModifyInterface</abbr></a></dt>
-        <dd></dd>
-            <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/ZnCore-Service-Interfaces-ServiceDataProviderInterface.html"><abbr title="\ZnCore\Service\Interfaces\ServiceDataProviderInterface">ServiceDataProviderInterface</abbr></a></dt>
-        <dd></dd>
-            <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/ZnCore-Service-Interfaces-ServiceInterface.html"><abbr title="\ZnCore\Service\Interfaces\ServiceInterface">ServiceInterface</abbr></a></dt>
-        <dd></dd>
+            <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/ZnCore-Enum-Interfaces-GetLabelsInterface.html"><abbr title="\ZnCore\Enum\Interfaces\GetLabelsInterface">GetLabelsInterface</abbr></a></dt>
+        <dd>Возможность получения названий констант</dd>
     
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ZnCore-App-Base-BaseApp.html"><abbr title="\ZnCore\App\Base\BaseApp">BaseApp</abbr></a></dt>
+        <dd>Абстрактный класс инициализатора приложения.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ZnCore-App-Enums-AppEventEnum.html"><abbr title="\ZnCore\App\Enums\AppEventEnum">AppEventEnum</abbr></a></dt>
+        <dd>Перечисление событий инициализации приложения</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ZnCore-App-Helpers-EnvServerHelper.html"><abbr title="\ZnCore\App\Helpers\EnvServerHelper">EnvServerHelper</abbr></a></dt>
+        <dd></dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ZnCore-App-Libs-ZnCore.html"><abbr title="\ZnCore\App\Libs\ZnCore">ZnCore</abbr></a></dt>
+        <dd>Инициализатор окружения и предварительных конфигов</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ZnCore-Bundle-Base-BaseBundle.html"><abbr title="\ZnCore\Bundle\Base\BaseBundle">BaseBundle</abbr></a></dt>
+        <dd>Абстрактный класс бандла.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ZnCore-Bundle-Base-BaseLoader.html"><abbr title="\ZnCore\Bundle\Base\BaseLoader">BaseLoader</abbr></a></dt>
+        <dd>Абстрактный класс импорта конкретной конфиурации бандла.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ZnCore-Bundle-Libs-BundleLoader.html"><abbr title="\ZnCore\Bundle\Libs\BundleLoader">BundleLoader</abbr></a></dt>
+        <dd>Загрузчик бандлов.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ZnCore-Collection-Helpers-CollectionHelper.html"><abbr title="\ZnCore\Collection\Helpers\CollectionHelper">CollectionHelper</abbr></a></dt>
+        <dd>Хэлпер для работы с коллекциями.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ZnCore-Collection-Libs-Collection.html"><abbr title="\ZnCore\Collection\Libs\Collection">Collection</abbr></a></dt>
+        <dd>Коллекция сущностей</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ZnCore-ConfigManager-Libs-ConfigManager.html"><abbr title="\ZnCore\ConfigManager\Libs\ConfigManager">ConfigManager</abbr></a></dt>
+        <dd>Реестр для хранения конфигов.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ZnCore-Contract-Common-Exceptions-DisabledException.html"><abbr title="\ZnCore\Contract\Common\Exceptions\DisabledException">DisabledException</abbr></a></dt>
         <dd>Функционал отключен</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ZnCore-Contract-Common-Exceptions-InternalServerErrorException.html"><abbr title="\ZnCore\Contract\Common\Exceptions\InternalServerErrorException">InternalServerErrorException</abbr></a></dt>
@@ -156,47 +179,28 @@
         <dd>Ошибка конфигурации</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ZnCore-Contract-Common-Exceptions-InvalidMethodParameterException.html"><abbr title="\ZnCore\Contract\Common\Exceptions\InvalidMethodParameterException">InvalidMethodParameterException</abbr></a></dt>
         <dd>Неверный параметр метода</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ZnCore-Contract-Common-Exceptions-NotFoundException.html"><abbr title="\ZnCore\Contract\Common\Exceptions\NotFoundException">NotFoundException</abbr></a></dt>
+        <dd>Сущность не найдена в хранилище</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ZnCore-Contract-Common-Exceptions-NotImplementedMethodException.html"><abbr title="\ZnCore\Contract\Common\Exceptions\NotImplementedMethodException">NotImplementedMethodException</abbr></a></dt>
         <dd>Заглушка для ненужных методов интерфейса</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ZnCore-Contract-Common-Exceptions-NotSupportedException.html"><abbr title="\ZnCore\Contract\Common\Exceptions\NotSupportedException">NotSupportedException</abbr></a></dt>
         <dd>Функционал не поддерживается в данной реализации</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ZnCore-Contract-Common-Exceptions-ReadOnlyAttributeException.html"><abbr title="\ZnCore\Contract\Common\Exceptions\ReadOnlyAttributeException">ReadOnlyAttributeException</abbr></a></dt>
+        <dd>Значение атрибута объекта только для чтения</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ZnCore-Contract-Common-Exceptions-ReadOnlyException.html"><abbr title="\ZnCore\Contract\Common\Exceptions\ReadOnlyException">ReadOnlyException</abbr></a></dt>
         <dd>Значение только для чтения</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ZnCore-Contract-User-Exceptions-ForbiddenException.html"><abbr title="\ZnCore\Contract\User\Exceptions\ForbiddenException">ForbiddenException</abbr></a></dt>
         <dd>Не достаточно полномочий</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ZnCore-Contract-User-Exceptions-UnauthorizedException.html"><abbr title="\ZnCore\Contract\User\Exceptions\UnauthorizedException">UnauthorizedException</abbr></a></dt>
         <dd>Не аутентифицированный пользователь</dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ZnCore-Domain-Enums-EventEnum.html"><abbr title="\ZnCore\Domain\Enums\EventEnum">EventEnum</abbr></a></dt>
-        <dd></dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ZnCore-Domain-Events-EntityEvent.html"><abbr title="\ZnCore\Domain\Events\EntityEvent">EntityEvent</abbr></a></dt>
-        <dd></dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ZnCore-Domain-Events-QueryEvent.html"><abbr title="\ZnCore\Domain\Events\QueryEvent">QueryEvent</abbr></a></dt>
-        <dd></dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ZnCore-Service-Base-BaseCrudService.html"><abbr title="\ZnCore\Service\Base\BaseCrudService">BaseCrudService</abbr></a></dt>
-        <dd></dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ZnCore-Service-Base-BaseService.html"><abbr title="\ZnCore\Service\Base\BaseService">BaseService</abbr></a></dt>
-        <dd></dd>
-            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ZnCore-Service-Subscribers-ReadOnlyServiceSubscriber.html"><abbr title="\ZnCore\Service\Subscribers\ReadOnlyServiceSubscriber">ReadOnlyServiceSubscriber</abbr></a></dt>
-        <dd></dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ZnCore-Enum-Helpers-EnumHelper.html"><abbr title="\ZnCore\Enum\Helpers\EnumHelper">EnumHelper</abbr></a></dt>
+        <dd>Работа с перечислениями</dd>
     
+            <dt class="phpdocumentor-table-of-contents__entry -trait"><a href="classes/ZnCore-ConfigManager-Traits-ConfigManagerAwareTrait.html"><abbr title="\ZnCore\ConfigManager\Traits\ConfigManagerAwareTrait">ConfigManagerAwareTrait</abbr></a></dt>
+        <dd></dd>
             <dt class="phpdocumentor-table-of-contents__entry -trait"><a href="classes/ZnCore-Contract-Rbac-Traits-CrudRbacInheritanceTrait.html"><abbr title="\ZnCore\Contract\Rbac\Traits\CrudRbacInheritanceTrait">CrudRbacInheritanceTrait</abbr></a></dt>
         <dd>Наследование всех CRUD-полномочий в общее полномочие</dd>
-            <dt class="phpdocumentor-table-of-contents__entry -trait"><a href="classes/ZnCore-Contract-User-Traits-GetUserTrait.html"><abbr title="\ZnCore\Contract\User\Traits\GetUserTrait">GetUserTrait</abbr></a></dt>
-        <dd>Работа с сущностью аутентифицированного пользователя</dd>
-            <dt class="phpdocumentor-table-of-contents__entry -trait"><a href="classes/ZnCore-Domain-Traits-DispatchEventTrait.html"><abbr title="\ZnCore\Domain\Traits\DispatchEventTrait">DispatchEventTrait</abbr></a></dt>
-        <dd></dd>
-            <dt class="phpdocumentor-table-of-contents__entry -trait"><a href="classes/ZnCore-Domain-Traits-ForgeQueryTrait.html"><abbr title="\ZnCore\Domain\Traits\ForgeQueryTrait">ForgeQueryTrait</abbr></a></dt>
-        <dd></dd>
-            <dt class="phpdocumentor-table-of-contents__entry -trait"><a href="classes/ZnCore-Service-Traits-CrudServiceCreateTrait.html"><abbr title="\ZnCore\Service\Traits\CrudServiceCreateTrait">CrudServiceCreateTrait</abbr></a></dt>
-        <dd></dd>
-            <dt class="phpdocumentor-table-of-contents__entry -trait"><a href="classes/ZnCore-Service-Traits-CrudServiceDeleteTrait.html"><abbr title="\ZnCore\Service\Traits\CrudServiceDeleteTrait">CrudServiceDeleteTrait</abbr></a></dt>
-        <dd></dd>
-            <dt class="phpdocumentor-table-of-contents__entry -trait"><a href="classes/ZnCore-Service-Traits-CrudServiceFindAllTrait.html"><abbr title="\ZnCore\Service\Traits\CrudServiceFindAllTrait">CrudServiceFindAllTrait</abbr></a></dt>
-        <dd></dd>
-            <dt class="phpdocumentor-table-of-contents__entry -trait"><a href="classes/ZnCore-Service-Traits-CrudServiceFindOneTrait.html"><abbr title="\ZnCore\Service\Traits\CrudServiceFindOneTrait">CrudServiceFindOneTrait</abbr></a></dt>
-        <dd></dd>
-            <dt class="phpdocumentor-table-of-contents__entry -trait"><a href="classes/ZnCore-Service-Traits-CrudServiceUpdateTrait.html"><abbr title="\ZnCore\Service\Traits\CrudServiceUpdateTrait">CrudServiceUpdateTrait</abbr></a></dt>
-        <dd></dd>
+    
     </dl>
 
 
